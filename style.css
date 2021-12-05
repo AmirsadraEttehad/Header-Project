@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 90vh;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 90vh;
+}
+
+.right {
+  background-color: red;
+  grid-column: 1/4;
+  background-image: url(./pics/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.left {
+  background-color: blue;
+  grid-column: 4/7;
+}
