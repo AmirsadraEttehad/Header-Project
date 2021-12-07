@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   height: 100vh;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 .left {
-  background-color: #202020;
+  background-color: #0f141a;
   grid-column: 4/7;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -43,7 +43,7 @@ body{
   font-family: cursive;
   top: 40%;
   right: 42.6%;
-  background: linear-gradient(to right, #202020 45%, #cac8c8 30%);
+  background: linear-gradient(to right, #0f141a 45%, #cac8c8 30%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -66,7 +66,6 @@ body{
 .btn {
   outline: none;
   border: none;
-  background: #cac8c8;
   border-radius: 25px;
   width: 100px;
   height: 40px;
@@ -74,10 +73,13 @@ body{
   grid-row: 4/5;
   font-family: "Readex Pro", sans-serif;
   align-self: flex-start;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
+  border: 1px solid #cac8c8;
+  color: #cac8c8;
+  background: #0f141a;
 }
 
-.btn:hover{
-color: #cac8c8;
-background: #333;
+.btn:hover {
+  color: #0f141a;
+  background: #cac8c8;
 }
