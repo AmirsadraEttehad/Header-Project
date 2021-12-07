@@ -12,9 +12,6 @@
 body{
   height: 100vh;
 }
-.container {
-  height: 100vh;
-}
 
 .header {
   display: grid;
@@ -28,6 +25,7 @@ body{
   background-image: url(./pics/header.jpg);
   background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 .left {
@@ -36,6 +34,7 @@ body{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  height: 100vh;
 }
 
 .text {
@@ -74,8 +73,8 @@ body{
   grid-column: 3/4;
   grid-row: 4/5;
   font-family: "Readex Pro", sans-serif;
-  align-self: center;
-  transition: all .4s ease;
+  align-self: flex-start;
+  transition: all .2s ease;
 }
 
 .btn:hover{
