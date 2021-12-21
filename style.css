@@ -55,12 +55,14 @@ body {
   grid-column: 3/4;
   grid-row: 2/3;
   align-self: center;
+  color: #cac8c8;
 }
 
 .paragraph {
   grid-column: 3/5;
   grid-row: 3/4;
   font-family: "Readex Pro", sans-serif;
+  color: #cac8c8;
 }
 
 .btn {
